@@ -62,8 +62,14 @@ Este projeto é uma plataforma para criação de currículos personalizados, per
    ```
 
 ## Uso
-Execute o comando `[gerenciador de dependência] run dev` para executar o programa localmente.
+Execute o comando `pnpm run dev` para executar o programa localmente.
 Acesse `http://localhost:3000` e comece a criar seus currículos personalizados.
+
+## Desktop
+Instale o Rust no seu Sistema
+Após instalar, execute o comando `pnpm tauri init` e faça as configurações necessárias.
+Depois execute o comando `pnpm tauri dev` para rodar a aplicação no desktop.
+Futuras implementações ocorrerão!
 
 ## Contribuição
 Se quiser contribuir, siga estas etapas:
